@@ -318,7 +318,7 @@ h3 .button-2 {
     #section-2 {
         flex-flow: column;
         flex-direction: column-reverse;
-        padding: 5rem 2%;
+        padding: 5rem 1rem;
         gap: 6rem;
     }
 
@@ -348,21 +348,31 @@ h3 .button-2 {
 .service-card {
     display: flex;
     justify-content: center;
-    border: .2rem solid #204E5F;
-    border-radius: 10px;
     height: 100%;
     max-height: 30rem;
     max-width: 24rem;
 }
 
 .service-card-content {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
     padding: 3rem 4rem;
     width: 80%;
 }
 
-.service-card-content ul {
-    padding-top: 1rem;
-    list-style: disc;
+.service-card-content h4 {
+    text-align: center;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    padding: 0 0 3rem 0;
+    width: 5rem;
 }
 
 .level-up {
@@ -383,10 +393,6 @@ h3 .button-2 {
 
 .level-up-content h2 {
     color: #204E5F;
-}
-
-.level-up-content .button-container {
-    padding-top: 1rem;
 }
 
 @media only screen and (max-width: 1295px) {
