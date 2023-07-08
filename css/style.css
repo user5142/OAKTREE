@@ -395,6 +395,19 @@ h3 .button-2 {
     color: #204E5F;
 }
 
+@media only screen and (min-width: 1530px) {
+    #services {
+        margin: 0 auto;
+        padding: 8rem 0 2rem 0;
+        width: 90rem;
+    }
+
+    .level-up {
+        padding: 2rem 15rem 12rem 15rem;
+    }
+}
+
+
 @media only screen and (max-width: 1295px) {
     .service-cards-container {
         gap: 1rem;
