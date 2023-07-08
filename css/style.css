@@ -105,7 +105,7 @@ header .button {
     display: none;
 }
 
-@media only screen and (min-width: 1600px) {
+@media only screen and (min-width: 1530px) {
     header {
         margin: 0 auto;
         padding: 0;
@@ -148,7 +148,7 @@ header .button {
 #hero-section {
     display: flex;
     justify-content: space-between;
-    padding: 5rem 5% 8rem;
+    padding: 8rem 5% 10rem;
 }
 
 .hero-container {
@@ -183,10 +183,10 @@ h3 .button {
     font-weight: bold;
 }
 
-@media only screen and (min-width: 1600px) {
+@media only screen and (min-width: 1530px) {
     #hero-section {
         margin: 0 auto;
-        padding: 8rem 0 10rem 0;
+        padding: 10rem 0 14rem 0;
         width: 90rem;
     }
 }
@@ -239,11 +239,15 @@ h3 .button {
 
 /* Section 2 */
 
+.section-2-wrap {
+    background-image: linear-gradient(to right, #79A8A9, #4E7280);
+}
+
 #section-2 {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 2rem;
     padding: 10rem 5%;
-    background-image: linear-gradient(to right, #79A8A9, #4E7280);
 }
 
 .section-2-container {
@@ -258,7 +262,7 @@ h3 .button {
     display: flex;
     flex-flow: column;
     justify-content: space-between;
-    gap: 2rem;
+    gap: 1.2rem;
     width: 70%;
 }
 
@@ -270,6 +274,10 @@ h3 .button-2 {
     font-weight: bold;
 }
 
+.button-container {
+    margin-top: .75rem;
+}
+
 .section-2-image {
     overflow: hidden;
     width: 60%;
@@ -278,6 +286,14 @@ h3 .button-2 {
 
 .section-2-image img {
     max-width: 100%;
+}
+
+@media only screen and (min-width: 1530px) {
+    #section-2 {
+        margin: 0 auto;
+        padding: 10rem 0 14rem 0;
+        width: 90rem;
+    }
 }
 
 @media only screen and (max-width: 1530px) {
@@ -294,7 +310,7 @@ h3 .button-2 {
     }
 
     .button-container {
-        padding-top: .75rem;
+        margin-top: 0;
     }
 }
 
